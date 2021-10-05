@@ -1,3 +1,20 @@
-.navbar-logo {
-	color: green;
+/* base styles */
+* {
+	margin: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: blue;
+}
+.navbar {
+	padding: 10px;
+	display: flex;
+	align-items: left;
+	max-width: 600px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-bottom: 4px solid orangered;
+}
+
+.navbar button {
+	color: peru;
+	margin: 10px;
 }

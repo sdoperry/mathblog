@@ -6,23 +6,18 @@ function Navbar() {
 	return (
 		<div>
 			<nav className="navbar">
-				<div className="navbar-container">
-					<Link to="/" className="navbar-logo">
-						MATH IS AWESOME!!
-					</Link>
-					<br />
-					<Link to="/register" className="navbar-logo">
-						CREATE A USER ACCOUNT
-					</Link>
-					<br />
-					<Link to="/sign-in" className="navbar-logo">
-						SIGN-IN
-					</Link>
-					<br />
-					<Link to="/sign-out" className="navbar-logo">
-						SIGN-OUT
-					</Link>
-				</div>
+				<Link to="/register">
+					<button name="create">CREATE A USER ACCOUNT</button>
+				</Link>
+				<Link to="/sign-in">
+					<button name="signin">SIGN-IN</button>
+				</Link>
+				<Link to="/sign-out">
+					<button name="signout">SIGN-OUT</button>
+				</Link>
+				<Link to="/">
+					<button name="about">WHAT'S THIS SITE ALL ABOUT?</button>
+				</Link>
 			</nav>
 		</div>
 	);

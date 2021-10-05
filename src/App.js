@@ -11,7 +11,7 @@ function App() {
 				<Navbar />
 				<Switch>
 					<Route exact path="/">
-						<Home />
+						<About />
 					</Route>
 					<Route path="/register">
 						<Register />
@@ -28,10 +28,10 @@ function App() {
 	);
 }
 
-function Home() {
+function About() {
 	return (
 		<div>
-			<h2>MAIN PAGE</h2>
+			<h2>ABOUT THIS SITE</h2>
 		</div>
 	);
 }
