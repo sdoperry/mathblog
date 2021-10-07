@@ -22,11 +22,11 @@ db.once("open", function () {
 	console.log("Database is CONNECTED! YAY!");
 });
 
-const testModel = require("./models/Cube");
+// const testModel = require("./models/Cube");
 
-const testCube = new testModel({ name: "Silence" });
-console.log(testCube.name);
-console.log(testCube);
+// const testCube = new testModel({ name: "Silence" });
+// console.log(testCube.name);
+// console.log(testCube);
 
 app.listen(
 	config.port,
